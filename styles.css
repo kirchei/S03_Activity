@@ -1,0 +1,174 @@
+/*  
+5 CSS we studied
+1. background-color
+2. color
+3. font-weight
+4. text-align
+5. text-decoration
+
+25 Additional Properties
+1. font-variant
+2. font-size
+3. line-height
+4. margin
+5. padding
+6. text-transform
+7. border
+8. border-radius
+9. box-shadow
+10. list-style-type
+11. list-style-position
+12. opacity
+13. bottom
+14. font-family
+15. letter-spacing
+16. max-width
+17. min-height
+18. transition
+19. outline
+20. text-shadow
+21. text-indent
+22. text-overflow
+23. position
+24. width
+25. height
+*/
+
+body {
+    background-color: #F5F7F8;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #495E57;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: underline;
+    font-variant: small-caps;
+    letter-spacing: 2px; 
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    max-width: 200px;
+}
+
+main {
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    min-height: 300px; 
+}
+
+article h3 {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside; 
+    padding-left: 20px;
+}
+
+blockquote.style-types {
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+    outline: 1px solid #888; 
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+aside q {
+    font-style: italic;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+caption {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    text-indent: 20px;
+    text-overflow: ellipsis;
+}
+
+thead {
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+th {
+    background-color: #495E57;
+    color: #fff;
+    outline: none; 
+}
+
+th:first-child {
+    border-radius: 5px 0 0 0;
+    height: 30px; 
+}
+
+th:last-child {
+    border-radius: 0 5px 0 0;
+}
+
+td:first-child {
+    border-radius: 0 0 0 5px;
+}
+
+td:last-child {
+    border-radius: 0 0 5px 0;
+}
+
+td:nth-child(2) {
+    font-style: italic;
+}
+
+footer {
+    background-color: #495E57;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    font-size: 12px;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0;
+}
